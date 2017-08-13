@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="401.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simulation.LineController">
+   <children>
+      <LineChart id="chart" fx:id="chart" layoutX="8.0" title="Probability of Occuring Birth Day">
+        <xAxis>
+          <CategoryAxis id="chart" label="Number of people" startMargin="7.0">
+               <tickLabelFont>
+                  <Font size="16.0" />
+               </tickLabelFont></CategoryAxis>
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="Probability" side="LEFT" upperBound="1.0" />
+        </yAxis>
+      </LineChart>
+   </children>
+</AnchorPane>
